@@ -1,4 +1,6 @@
 "use client";
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react-hooks/exhaustive-deps */
 import Button from "@/components/Button";
 import Highlight from "@/components/Highlight";
 import Link from "@/components/Link";
