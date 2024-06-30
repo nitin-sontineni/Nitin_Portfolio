@@ -7,8 +7,8 @@ export interface IProps {
   degree: string;
   school: string;
   courses: string[];
-  start: number;
-  end: number;
+  start: string;
+  end: string;
   gpa: string;
   imgSrc: string;
   side: "left" | "right";

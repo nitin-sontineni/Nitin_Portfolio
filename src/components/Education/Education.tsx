@@ -15,8 +15,8 @@ const COLLEGES = [
             "Advanced Operating Systems",
             "Generative AI"
         ],
-        start: 'Aug 2023',
-        end: 'Dec 2024(Expected)',
+        start: "Aug 2023",
+        end: "Dec 2024(Expected)",
         gpa: "3.5/4",
         imgSrc: "/images/sbu.jpg",
     },
