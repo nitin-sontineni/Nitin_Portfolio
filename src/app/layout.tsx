@@ -20,9 +20,9 @@ import Script from "next/script";
 // };
 
 function RootLayout({children}: { children: React.ReactNode }) {
-    const theme = "dark";
-    // const themeColors = theme === "light" ? LIGHT_COLORS: DARK_COLORS;
-    const themeColors = theme === "dark" ? DARK_COLORS: LIGHT_COLORS;
+    const theme = "light";
+    const themeColors = theme === "light" ? LIGHT_COLORS: DARK_COLORS;
+    // const themeColors = theme === "dark" ? DARK_COLORS: LIGHT_COLORS;
 
 
   return (

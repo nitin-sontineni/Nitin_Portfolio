@@ -23,7 +23,7 @@ const Project: React.FC<IProps> = ({ project, side, ...delegated }) => {
   return (
     <div className={clsx(styles.project, styles[side])} {...delegated}>
       <div className={styles.stretch}>
-        <a href={project.website}>
+        <a href={project.github} target="_blank">
           <Image
             className={styles.tiltingImage}
             src={project.imgSrc}
