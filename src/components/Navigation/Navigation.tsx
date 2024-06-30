@@ -17,6 +17,17 @@ const Navigation = () => {
         <p className={styles.navText}>Contact</p>
         Contact
       </Link>
+
+      {/* <Link className={styles.navLink} href="#linkedin">
+        <p className={styles.navText}>LinkedIn</p>
+        LinkedIn
+      </Link>
+
+      <Link className={styles.navLink} href="#github">
+        <p className={styles.navText}>Github</p>
+        Github
+      </Link> */}
+
       <a className={styles.downloadLink} href="/resume" target="_blank">
           Resumé
         <FaDownload />
