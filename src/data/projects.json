@@ -1,5 +1,20 @@
 [
   {
+    "name": "AI for Health",
+    "techs": [
+      "PySpark",
+      "Generative AI",
+      "Large Language Models",
+      "Graph Neural Networks",
+      "Distributed Processing"
+    ],
+    "description": "Research under Prof. Fusheng Wang as part of my masters. Our main aim is to leverage advance AI techniques to solve the healthcare problems our university. Streamlined 6TB of medical data pipelines with PySpark for distributed processing, decreased processing time by 24%. Implemented a Generative AI model using LLaMA 2(Large Language Model Meta AI) and Bi-Attention GNN to predict patient care outcomes, boosted AUROC by 4.2% for readmission, F1-score by 8.4% for drug recommendation.",
+    "github": "",
+    "website": "https://www3.cs.stonybrook.edu/~fuswang/research.html",
+    "imgSrc": "/images/Research.png",
+    "type": "Featured Project"
+  },
+  {
     "name": "Predicting Flight Delays",
     "techs": [
       "Python",

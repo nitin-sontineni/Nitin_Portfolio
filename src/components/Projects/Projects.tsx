@@ -14,6 +14,7 @@ const Projects: React.FC = () => {
           <Project project={PROJECTS[0]} side="right" />
           <Project project={PROJECTS[1]} side="left" />
           <Project project={PROJECTS[2]} side="right" />
+          <Project project={PROJECTS[3]} side="left" />
         </div>
       </MaxWidthWrapper>
       {/* <ProjectGrid projects={PROJECTS.slice(3)} /> */}
