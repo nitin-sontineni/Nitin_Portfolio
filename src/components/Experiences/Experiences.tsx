@@ -34,10 +34,9 @@ const Experiences: React.FC = () => {
               <h4 className={styles.company}>SUNY Research Foundation</h4>
               <h4 className={styles.role}>Data Engineer</h4>
               <p className={styles.description}>
-                ⦿ &nbsp; &nbsp; Streamlined 6TB of medical data pipelines with PySpark for distributed processing, decreased processing time by 24%.
+                ⦿ &nbsp; &nbsp; Created data pipelines to combine the healthcare data from multiple sources into a common data model using Kafka and PySpark.
                 <br></br>
-                ⦿ &nbsp; &nbsp; Developed a Generative AI model using LLaMA 2(Large Language Model Meta AI) and Bi-Attention GNN to predict patient
-                          care outcomes, boosted AUROC by 4.2% for readmission, F1-score by 8.4% for drug recommendation.
+                ⦿ &nbsp; &nbsp; Analyzing clinical characteristics of patients with cancer to optimize surgery waiting times using OHDSI Method Libraries in R.
               </p>
             </div>
           </div>
@@ -88,7 +87,7 @@ training time by ∼70x, which led to the faster development and experiments..<b
                 </div>
                 <div className={styles.info}>
                   <p className={styles.time}>July 2021 - Dec 2021</p>
-                  <h4 className={styles.role}>Data Engineer Intern</h4>
+                  <h4 className={styles.role}>Data Analyst</h4>
 
                   <p className={styles.description}>
                     ⦿ &nbsp; &nbsp; Created CI/CD pipelines for machine learning models deployment in Kubernetes using docker and helm, reduced the effort spent onboarding a new model deployments by 70%.<br/><br/>
