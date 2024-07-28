@@ -65,7 +65,7 @@ const Experiences: React.FC = () => {
                   ></Image>
                   <p className={styles.time}>July 2022 - July 2023</p>
                   <h4 className={styles.company}>American Express</h4>
-                  <h4 className={styles.role}>Software Engineer</h4>
+                  <h4 className={styles.role}>Data Engineer</h4>
                   <p className={styles.description}>
                     ⦿ &nbsp; &nbsp; Developed a scalable JupyterLab environment hosted on AWS and built RESTful APIs in Python to provision AWS EC2, EMR
 clusters, enhancing the modeling journey for 500+ ML modelers and enabling efficient distributed AI/ML workloads.<br/><br/>
@@ -87,7 +87,7 @@ training time by ∼70x, which led to the faster development and experiments..<b
                 </div>
                 <div className={styles.info}>
                   <p className={styles.time}>July 2021 - Dec 2021</p>
-                  <h4 className={styles.role}>Software Engineer</h4>
+                  <h4 className={styles.role}>Data Engineer</h4>
 
                   <p className={styles.description}>
                     ⦿ &nbsp; &nbsp; Created CI/CD pipelines for machine learning models deployment in Kubernetes using docker and helm, reduced the effort spent onboarding a new model deployments by 70%.<br/><br/>
