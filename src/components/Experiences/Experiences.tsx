@@ -31,12 +31,12 @@ const Experiences: React.FC = () => {
                   alt="SBU"
               ></Image>
               <p className={styles.time}>Jun 2024 - Present</p>
-              <h4 className={styles.company}>SUNY Research Foundation</h4>
-              <h4 className={styles.role}>Data Engineer</h4>
+              <h4 className={styles.company}>The Research Foundation for SUNY</h4>
+              <h4 className={styles.role}>Software Engineer</h4>
               <p className={styles.description}>
-                ⦿ &nbsp; &nbsp; Created data pipelines to combine the healthcare data from multiple sources into a common data model using Kafka and PySpark.
+                ⦿ &nbsp; &nbsp; Created a Docker-based workbench, streamlining the development process by creating a consistent and reproducible environment, which reduced setup time and improved team productivity.
                 <br></br>
-                ⦿ &nbsp; &nbsp; Analyzing clinical characteristics of patients with cancer to optimize surgery waiting times using OHDSI Method Libraries in R.
+                ⦿ &nbsp; &nbsp; Automated the process of combining the healthcare data from multiple relational databases and staged the data to standard OHDSI format using Spark to facilitate the faster modeling experiments.
               </p>
             </div>
           </div>
@@ -65,18 +65,20 @@ const Experiences: React.FC = () => {
                   ></Image>
                   <p className={styles.time}>July 2022 - July 2023</p>
                   <h4 className={styles.company}>American Express</h4>
-                  <h4 className={styles.role}>Data Engineer</h4>
+                  <h4 className={styles.role}>Software Engineer</h4>
                   <p className={styles.description}>
                     ⦿ &nbsp; &nbsp; Developed a scalable JupyterLab environment hosted on AWS and built RESTful APIs in Python to provision AWS EC2, EMR
-clusters, enhancing the modeling journey for 500+ ML modelers and enabling efficient distributed AI/ML workloads.<br/><br/>
+clusters, enhancing the modeling journey for 1000+ ML modelers and enabling efficient distributed AI/ML workloads.<br/><br/>
                     ⦿ &nbsp; &nbsp; Designed and created Postgre database with optimized schema for efficient storage of AWS log data and created an interactive
-dashboard using Tableau for visualizing usage KPIs, enabled real-time cost monitoring and management.<br/><br/>
+dashboard using Kibana for visualizing usage KPIs, enabled real-time cost monitoring and management.<br/><br/>
                     ⦿ &nbsp; &nbsp; Built a recommendation system by creating multi-class classification XGBoost model that suggests the optimal AWS clusters based
 on user inputs, resulting in saving $25,000 quarterly through optimized cluster usage.<br/><br/>
-                    ⦿ &nbsp; &nbsp; Revamped Hive queries and Optimized the data pipelines for usecases like customer segmentation, loyalty programs success, fraud
-detection by using indexed views, table partitioning, optimized joins and subqueries, achieved 20% improvement in retrieval time.<br/><br/>
+                    ⦿ &nbsp; &nbsp; Optimized cloud resources utilization by deploying Nvidia RAPIDS on AWS, enabling complex models to run entirely on GPUs,
+leveraged Dask clusters on Amazon EKS and ECS.<br/><br/>
                     ⦿ &nbsp; &nbsp; Spearheaded the migration of over 30 AI/ML models to CUDA programming for distributed GPU computing, improving the model
-training time by ∼70x, which led to the faster development and experiments..<br/>
+training time by ∼70x, which led to the faster development and experiments.<br/>
+                    ⦿ &nbsp; &nbsp; Implemented dynamic resource allocation controls for Jupyter notebook sessions using Unix shell scripting with Bash, optimizing
+compute resource distribution across a multi-tenant environment and ensuring equitable access for over 3,400 users.<br/>
                   </p>
                 </div>
               </div>
@@ -87,11 +89,12 @@ training time by ∼70x, which led to the faster development and experiments..<b
                 </div>
                 <div className={styles.info}>
                   <p className={styles.time}>July 2021 - Dec 2021</p>
-                  <h4 className={styles.role}>Data Engineer</h4>
+                  <h4 className={styles.role}>Software Engineer</h4>
 
                   <p className={styles.description}>
-                    ⦿ &nbsp; &nbsp; Created CI/CD pipelines for machine learning models deployment in Kubernetes using docker and helm, reduced the effort spent onboarding a new model deployments by 70%.<br/><br/>
-                    ⦿ &nbsp; &nbsp; Developed a PoC for Model Retraining and integrated into deployment pipeline for auto-retraining of deployed models by creating a ETL pipeline using Kafka, reduced the manual intervention and increased operational efficiency.
+                    ⦿ &nbsp; &nbsp; Leveraged React, Node, MySQL to develop a model deployment platform, maintained security measures and compliance protocols, including HTTP and OAuth for secure API access, significantly enhancing the user experience.<br/><br/>
+                    ⦿ &nbsp; &nbsp; Developed backend CI/CD pipelines for machine learning models deployment in Kubernetes using docker and helm, reduced the effort spent on onboarding a new model deployments by 70%.<br/><br/>
+                    ⦿ &nbsp; &nbsp; Revamped HiveQL queries to optimize the data pipelines for usecases like customer segmentation, marketing, fraud detection by using indexed views, table partitioning, optimized joins and subqueries, improved the execution time by 20%.
                     <br/>
 
                   </p>
@@ -132,7 +135,7 @@ training time by ∼70x, which led to the faster development and experiments..<b
                 <br/><br/>
                 ⦿ &nbsp; &nbsp; Implemented auto-termination of EC2 instances post-job completion, enhancing resource utilization.
                 <br/><br/>
-                ⦿ &nbsp; &nbsp; Utilized Python, Django, and AWS SDKs for robust backend development and integration.
+                ⦿ &nbsp; &nbsp; Utilized Python, Django, MongoDB and AWS SDKs for robust backend development and integration.
                 <br/>
               </p>
             </div>
