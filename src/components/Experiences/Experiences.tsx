@@ -34,9 +34,16 @@ const Experiences: React.FC = () => {
               <h4 className={styles.company}>The Research Foundation for SUNY</h4>
               <h4 className={styles.role}>Software Engineer</h4>
               <p className={styles.description}>
-                ⦿ &nbsp; &nbsp; Created a Docker-based workbench, streamlining the development process by creating a consistent and reproducible environment, which reduced setup time and improved team productivity.
+                ⦿ &nbsp; &nbsp; Developed a MERN stack-based application for automating health records management, significantly enhancing data accessibility and operational efficiency through real-time data synchronization.
                 <br></br>
-                ⦿ &nbsp; &nbsp; Automated the process of combining the healthcare data from multiple relational databases and staged the data to standard OHDSI format using Spark to facilitate the faster modeling experiments.
+                ⦿ &nbsp; &nbsp; Implemented caching for GraphQL API endpoints, enabling seamless integration with existing hospital applications and achieving a 15% improvement in data retrieval speed.
+                ⦿ &nbsp; &nbsp; Maintained and optimized databases through sharding and indexing techniques, ensuring efficient data storage, retrieval, and performance tuning, which improved query response times by 22%.
+                <br></br>
+                ⦿ &nbsp; &nbsp; Automated data integration from multiple relational databases to standard OHDSI format using Spark and Java APIs, enhancing data processing speed by 40% for modeling experiments.
+                <br></br>
+                ⦿ &nbsp; &nbsp; Integrated automated testing with Jest and Selenium to minimize production bugs and achieved 84% code coverage.
+                <br></br>
+                ⦿ &nbsp; &nbsp; Achieved a 99.99% system uptime by expertly managing a CI/CD pipeline with Jenkins and Docker and optimized for high availability and fault tolerance through Kubernetes orchestration.
               </p>
             </div>
           </div>
@@ -67,12 +74,13 @@ const Experiences: React.FC = () => {
                   <h4 className={styles.company}>American Express</h4>
                   <h4 className={styles.role}>Software Engineer</h4>
                   <p className={styles.description}>
-                    ⦿ &nbsp; &nbsp; Developed a scalable JupyterLab environment hosted on AWS and built RESTful APIs in Python to provision AWS EC2, EMR
-clusters, enhancing the modeling journey for 1000+ ML modelers and enabling efficient distributed AI/ML workloads.<br/><br/>
-                    ⦿ &nbsp; &nbsp; Designed and created Postgre database with optimized schema for efficient storage of AWS log data and created an interactive
-dashboard using Kibana for visualizing usage KPIs, enabled real-time cost monitoring and management.<br/><br/>
-                    ⦿ &nbsp; &nbsp; Built a recommendation system by creating multi-class classification XGBoost model that suggests the optimal AWS clusters based
-on user inputs, resulting in saving $25,000 quarterly through optimized cluster usage.<br/><br/>
+
+                    ⦿ &nbsp; &nbsp; Built dynamic UIs with React, Redux/One Amex framework, Jest, and implemented OAuth 2.0 and JWT for Role-Based Access Control, enhancing UI performance and security for unified AI/ML platform, enhancing modeling journey for 3000+ users.<br/><br/>
+                    ⦿ &nbsp; &nbsp; Created a distributed database using AWS (Redis, S3, Lambda) and PySpark to centralize the features used across 1000+ ML models for real-time access and reuse, reducing model development time by and improving feature consistency across models.<br/><br/>
+                    ⦿ &nbsp; &nbsp; Developed scalable REST APIs using Django, AWS SDK(Boto3, Elastic Beanstalk)to automate infrastructure provisioning and real-time monitoring of AWS resources.<br/><br/>
+                    ⦿ &nbsp; &nbsp; Built an interactive dashboard using Next.js and Node.js, seamlessly integrating with PostgreSQL to enable real-time tracking
+of AWS usage, enhanced cost management by reducing monthly cloud expenses by 20%.
+                    <br/><br/>
                     ⦿ &nbsp; &nbsp; Optimized cloud resources utilization by deploying Nvidia RAPIDS on AWS, enabling complex models to run entirely on GPUs,
 leveraged Dask clusters on Amazon EKS and ECS.<br/><br/>
                     ⦿ &nbsp; &nbsp; Spearheaded the migration of over 30 AI/ML models to CUDA programming for distributed GPU computing, improving the model
