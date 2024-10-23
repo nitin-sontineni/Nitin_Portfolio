@@ -24,7 +24,7 @@ const Hero = () => {
             {/*    alt="Typing SVG"/></a>*/}
         </h3>
         <p className={styles.description}>
-            I bring 2 years of experience specializing in Data Engineering, Cloud Infrastructure, Machine learning
+            I bring 2 years of experience specializing in Full Stack Development, Cloud Infrastructure, Machine learning
             and automation. I'm currently pursuing my Master's in Computer Science with Specialization in Data Science and Engineering at {" "}&nbsp;
             <Link
                 href="https://www.stonybrook.edu/grad/"

@@ -27,7 +27,7 @@ const About = ({ ...delegated }: Props) => {
                 <SectionTitle side={"left"}>About Me</SectionTitle>
                 <p className={styles.description}>
                     Hi there! My name is Nitin Gopala Krishna Sontineni, and I'm currently doing my master's in Computer Science at Stony Brook University.  
-                    I'm currently looking for internship opportunities in SDE/AI/ML roles for Summer 2024 to create value by tackling and resolving problems - feel free to reach out to me through the contact links on the sidebar.
+                    I'm currently looking for opportunities in SDE/AI/ML roles to create value by tackling and resolving problems - feel free to reach out to me through the contact links on the sidebar.
                 </p>
                 <div className={styles.description}>
                     What I Bring to the Table:<br/>
