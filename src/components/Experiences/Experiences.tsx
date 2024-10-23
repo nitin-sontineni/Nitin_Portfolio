@@ -84,7 +84,7 @@ of AWS usage, enhanced cost management by reducing monthly cloud expenses by 20%
                     ⦿ &nbsp; &nbsp; Optimized cloud resources utilization by deploying Nvidia RAPIDS on AWS, enabling complex models to run entirely on GPUs,
 leveraged Dask clusters on Amazon EKS and ECS.<br/><br/>
                     ⦿ &nbsp; &nbsp; Spearheaded the migration of over 30 AI/ML models to CUDA programming for distributed GPU computing, improving the model
-training time by ∼70x, which led to the faster development and experiments.<br/>
+training time by ∼70x, which led to the faster development and experiments.<br/><br/>
                     ⦿ &nbsp; &nbsp; Implemented dynamic resource allocation controls for Jupyter notebook sessions using Unix shell scripting with Bash, optimizing
 compute resource distribution across a multi-tenant environment and ensuring equitable access for over 3,400 users.<br/>
                   </p>
