@@ -34,16 +34,19 @@ const Experiences: React.FC = () => {
               <h4 className={styles.company}>The Research Foundation for SUNY</h4>
               <h4 className={styles.role}>Software Engineer</h4>
               <p className={styles.description}>
-                ⦿ &nbsp; &nbsp; Developed a MERN stack-based application for automating health records management, significantly enhancing data accessibility and operational efficiency through real-time data synchronization.
+                ⦿ &nbsp; &nbsp; Developed microservices using Go (Golang) for automating health records management, enhancing data accessibility and operational
+efficiency through real-time data synchronization and efficient API design.
                 <br></br>
-                ⦿ &nbsp; &nbsp; Implemented caching for GraphQL API endpoints, enabling seamless integration with existing hospital applications and achieving a 15% improvement in data retrieval speed.
-                ⦿ &nbsp; &nbsp; Maintained and optimized databases through sharding and indexing techniques, ensuring efficient data storage, retrieval, and performance tuning, which improved query response times by 22%.
+                ⦿ &nbsp; &nbsp; Maintained data access logic with Go database/sql and GORM, ensuring efficient ORM mapping with MySQL entities for robust and
+scalable database interactions.
+                ⦿ &nbsp; &nbsp; Implemented caching for REST and GraphQL APIs using Redis, seamlessly integrating with existing microservices and achieving a 28%
+improvement in data retrieval speed, ensuring a smooth user experience with Angular dynamic component rendering.
                 <br></br>
-                ⦿ &nbsp; &nbsp; Automated data integration from multiple relational databases to standard OHDSI format using Spark and Java APIs, enhancing data processing speed by 40% for modeling experiments.
-                <br></br>
+                ⦿ &nbsp; &nbsp; Implemented CI/CD pipelines with Jenkins for automation, Docker and Kubernetes for containerization and deployment.
+                {/* <br></br>
                 ⦿ &nbsp; &nbsp; Integrated automated testing with Jest and Selenium to minimize production bugs and achieved 84% code coverage.
                 <br></br>
-                ⦿ &nbsp; &nbsp; Achieved a 99.99% system uptime by expertly managing a CI/CD pipeline with Jenkins and Docker and optimized for high availability and fault tolerance through Kubernetes orchestration.
+                ⦿ &nbsp; &nbsp; Achieved a 99.99% system uptime by expertly managing a CI/CD pipeline with Jenkins and Docker and optimized for high availability and fault tolerance through Kubernetes orchestration. */}
               </p>
             </div>
           </div>
@@ -81,6 +84,10 @@ const Experiences: React.FC = () => {
                     ⦿ &nbsp; &nbsp; Built an interactive dashboard using Next.js and Node.js, seamlessly integrating with PostgreSQL to enable real-time tracking
 of AWS usage, enhanced cost management by reducing monthly cloud expenses by 20%.
                     <br/><br/>
+                    ⦿ &nbsp; &nbsp;
+                    Implemented dedicated container allocation for users on a shared on-premise clusters with Docker, Kubernetes using Terraform,
+configuring fixed CPU and RAM limits to ensure guaranteed availability, and enhancing system reliability.
+                    <br/><br/>
                     ⦿ &nbsp; &nbsp; Optimized cloud resources utilization by deploying Nvidia RAPIDS on AWS, enabling complex models to run entirely on GPUs,
 leveraged Dask clusters on Amazon EKS and ECS.<br/><br/>
                     ⦿ &nbsp; &nbsp; Spearheaded the migration of over 30 AI/ML models to CUDA programming for distributed GPU computing, improving the model
@@ -101,8 +108,10 @@ compute resource distribution across a multi-tenant environment and ensuring equ
 
                   <p className={styles.description}>
                     ⦿ &nbsp; &nbsp; Leveraged React, Node, MySQL to develop a model deployment platform, maintained security measures and compliance protocols, including HTTP and OAuth for secure API access, significantly enhancing the user experience.<br/><br/>
+                    ⦿ &nbsp; &nbsp; Implemented a Fastest (Node) load balancer algorithm for hosting JupyterLab environment using C++ and gRPC for communication
+between compute nodes, ensuring optimal resource utilization and system reliability, achieving a 30% improvement. <br/><br/>
                     ⦿ &nbsp; &nbsp; Developed backend CI/CD pipelines for machine learning models deployment in Kubernetes using docker and helm, reduced the effort spent on onboarding a new model deployments by 70%.<br/><br/>
-                    ⦿ &nbsp; &nbsp; Revamped HiveQL queries to optimize the data pipelines for usecases like customer segmentation, marketing, fraud detection by using indexed views, table partitioning, optimized joins and subqueries, improved the execution time by 20%.
+                    ⦿ &nbsp; &nbsp; Revamped SQL queries to optimize the data pipelines for usecases like customer segmentation, marketing, fraud detection by using indexed views, table partitioning, optimized joins and subqueries, improved the execution time by 20%.
                     <br/>
 
                   </p>

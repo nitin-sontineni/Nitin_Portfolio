@@ -16,8 +16,8 @@ const COLLEGES = [
             "Generative AI"
         ],
         start: "Aug 2023",
-        end: "Dec 2024(Expected)",
-        gpa: "3.5/4",
+        end: "Dec 2024",
+        gpa: "3.65/4",
         imgSrc: "/images/sbu.jpg",
     },
     {
